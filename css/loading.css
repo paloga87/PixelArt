@@ -1,0 +1,50 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: white;
+}
+/*-Loader-*/
+.col-6{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  
+}
+.col-6 img{
+  max-width: 400px;
+  max-height: 194px;
+  
+}
+.marvel{
+  background-color: #ba3831;
+  height: -webkit-fill-available;
+  border: 2px solid #fff;
+}
+.marvel img{
+  margin-top: 35%;
+}
+.dc{
+  background-color: #fff;
+  height: -webkit-fill-available;
+  border: 2px solid #4266a1;
+  position: relative;
+  right: -100%;
+}
+.dc img{
+  margin-top: 31%;
+  
+}
+.vrs-img{
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+}
+.vrs-img img{
+  width: 170px
+  
+}
